@@ -2,7 +2,6 @@ const displayOneEl = document.querySelector('#display-1');
 const btnNumeros = document.querySelectorAll('.numero');
 const btnOperador = document.querySelectorAll('.operador');
 const deleteAllNum = document.querySelector('#delete');
-const deleteNum = document.querySelector('#back');
 const btnIgual = document.querySelector('.igual');
 let operActual = '';
 let operAnterior = ''; 
