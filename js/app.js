@@ -8,8 +8,6 @@ let operAnterior = '';
 let operador = undefined;
 
 //EVENTOS
-
-
 btnNumeros.forEach(boton =>{
   boton.addEventListener('click', () =>{
     agregarNumeros(boton.innerText);
